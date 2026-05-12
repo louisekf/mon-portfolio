@@ -17,7 +17,7 @@ const categories = [
   },
   {
     title: "Architecture",
-    items: ["API REST", "SOAP", "Microservices"],
+    items: ["API REST", "Microservices"],
   },
   {
     title: "Cloud",
@@ -26,7 +26,7 @@ const categories = [
 ];
 
 const SkillsSection = () => (
-  <section id="skills" className="py-24 px-6 bg-card/50">
+  <section id="skills" className="py-12 px-6 bg-card/100">
     <div className="container mx-auto max-w-3xl">
       <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground mb-2">
         Compétences
@@ -43,7 +43,7 @@ const SkillsSection = () => (
               {cat.items.map((item) => (
                 <span
                   key={item}
-                  className="text-sm px-3 py-1.5 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors duration-200"
+                  className="text-sm px-3 py-1.5  border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors duration-200"
                 >
                   {item}
                 </span>

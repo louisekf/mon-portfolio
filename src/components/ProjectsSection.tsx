@@ -6,7 +6,7 @@ const ProjectsSection = () => {
   const navigate = useNavigate();
 
   return (
-    <section id="projects" className="py-24 px-6">
+    <section id="projects" className="py-16 px-6">
       <div className="container mx-auto max-w-3xl">
         <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground mb-2">
           Projets
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
                 {project.description.slice(0, 160)}…
               </p>
               <div className="flex flex-wrap gap-2">
-                {project.stack.map((tech) => (
+                {project.techStack.map((tech) => (
                   <span
                     key={tech}
                     className="text-xs px-2.5 py-1 rounded-full bg-accent text-accent-foreground"
