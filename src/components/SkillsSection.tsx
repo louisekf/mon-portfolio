@@ -9,7 +9,7 @@ const categories = [
   },
   {
     title: "Bases de données",
-    items: ["MySQL", "Oracle", "MongoDB", "Firebase"],
+    items: ["MySQL", "Oracle", "MongoDB", "PostgreSQL" ,"Firebase"],
   },
   {
     title: "DevOps & Outils",
